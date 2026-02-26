@@ -1,4 +1,3 @@
-# pdf_to_images.py - prosty FastAPI endpoint
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 import fitz  # PyMuPDF
