@@ -1,0 +1,6 @@
+services:
+  pdf-to-images:
+    build: .
+    ports:
+      - "8002:8002"
+    restart: unless-stopped
