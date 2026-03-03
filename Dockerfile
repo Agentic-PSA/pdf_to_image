@@ -12,4 +12,4 @@ COPY server.py .
 
 EXPOSE 8002
 
-CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8002"]
+CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8002", "--timeout-keep-alive", "7200"]
